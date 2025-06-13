@@ -26,7 +26,7 @@ money_manager/
 ├── service/ → Business logic
 ├── controller/ → App flow control
 ├── ui/ → GUI (Swing)
-└── Main.java → Entry point
+└── src.main.Main.java → Entry point
 
 
 ---
@@ -44,4 +44,4 @@ Make sure the `expenses` collection exists under `expense_manager` database.
 
 ```bash
 mvn compile
-mvn exec:java -Dexec.mainClass="Main"
+mvn exec:java -Dexec.mainClass="src.main.Main"
